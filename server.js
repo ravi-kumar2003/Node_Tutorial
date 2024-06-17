@@ -13,8 +13,8 @@ app.get('/', function (req, res) {
 })
 
 // Import the router files
-const personRoutes = require('./routes/personRoutes');
-const menuItemRoutes = require('./routes/menuItemRoutes');
+const personRoutes = require('./Routes/personRoutes');
+const menuItemRoutes = require('./Routes/menuItemRoutes');
 
 // Use the routers
 app.use('/person', personRoutes);
